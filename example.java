@@ -5,7 +5,7 @@ public class Bubble {
         int[] mas = new int[10];
         Random rnd = new Random();
         for (int i = 0; i < 10; i++) {
-            mas[i] = rnd.nextInt(50);
+            mas[i] = rnd.nextInt(500);
         }
         return mas;
     }
