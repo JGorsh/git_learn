@@ -5,7 +5,11 @@ public class Bubble {
         int[] mas = new int[10];
         Random rnd = new Random();
         for (int i = 0; i < 10; i++) {
+<<<<<<< HEAD
             mas[i] = rnd.nextInt(50);
+=======
+            mas[i] = rnd.nextInt(13);
+>>>>>>> 7e7f2be7c5f8c7bf966da773550651669cbb8e4c
         }
         return mas;
     }
